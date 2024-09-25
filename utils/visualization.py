@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 def visualize_strategy(data, trades_df):
     plt.figure(figsize=(12, 8))
     plt.plot(data.index, data['Close'], label='ETH Price')
-    plt.plot(data.index, data['SMA_Short'], label=f'SMA {data.columns["SMA_Short"].split("_")[-1]}')
-    plt.plot(data.index, data['SMA_Long'], label=f'SMA {data.columns["SMA_Long"].split("_")[-1]}')
+    plt.plot(data.index, data['SMA_Short'], label=f'SMA Short')
+    plt.plot(data.index, data['SMA_Long'], label=f'SMA Long')
 
     for _, trade in trades_df.iterrows():
         if trade['Type'] == 'BUY':
