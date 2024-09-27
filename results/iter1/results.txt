@@ -1,9 +1,0 @@
-Final backtest results:
-Total return: 22.87%
-Number of trades: 102
-Total trades: 102
-Win rate: 20.59%
-Average win: 21.52%
-Average loss: -6.95%
-Profit factor: 3.10
-Maximum drawdown: -10.96%
